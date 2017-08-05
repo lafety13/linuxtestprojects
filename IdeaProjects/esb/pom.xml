@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ AdroitLogic UltraESB Enterprise Service Bus
+  ~
+  ~ Copyright (c) 2010-2015 AdroitLogic Private Ltd. (http://adroitlogic.org). All Rights Reserved.
+  ~
+  ~ GNU Affero General Public License Usage
+  ~
+  ~ This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General
+  ~ Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option)
+  ~ any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied
+  ~ warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for
+  ~ more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License along with this program (See LICENSE.AGPL).
+  ~ If not, see http://www.gnu.org/licenses/agpl-3.0.html
+  ~
+  ~ Commercial Usage
+  ~
+  ~ Licensees holding valid UltraESB Commercial licenses may use this file in accordance with the UltraESB Commercial
+  ~ License Agreement provided with the Software or, alternatively, in accordance with the terms contained in a written
+  ~ agreement between you and AdroitLogic.
+  ~
+  ~ If you are unsure which license is appropriate for your use, or have questions regarding the use of this file,
+  ~ please contact AdroitLogic at info@adroitlogic.com
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.acme.esb</groupId>
+    <artifactId>esb</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+
+    <url>http://adroitlogic.org</url>
+
+    <repositories>
+        <repository>
+            <id>adroitlogic</id>
+            <name>AdroitLogic Maven Repository</name>
+            <url>http://repository.adroitlogic.org/maven2</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
+        <repository>
+            <id>adroitlogic-snapshots</id>
+            <name>AdroitLogic SNAPSHOT Maven Repository</name>
+            <url>http://dev.adroitlogic.com/maven2</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>adroitlogic-plugins</id>
+            <name>AdroitLogic Maven Repository</name>
+            <url>http://repository.adroitlogic.org/maven2</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </pluginRepository>
+        <pluginRepository>
+            <id>adroitlogic-plugin-snapshots</id>
+            <name>AdroitLogic SNAPSHOT Maven Repository</name>
+            <url>http://dev.adroitlogic.com/maven2</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </pluginRepository>
+    </pluginRepositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.adroitlogic</groupId>
+            <artifactId>ultraesb-api</artifactId>
+            <version>${ultraesb.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.adroitlogic</groupId>
+            <artifactId>logging-api</artifactId>
+            <version>${logging.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.adroitlogic</groupId>
+            <artifactId>ultraesb-sample</artifactId>
+            <version>${ultraesb.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.adroitlogic</groupId>
+            <artifactId>logging-slf4j-impl</artifactId>
+            <version>${logging.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <modules></modules>
+
+    <properties>
+        <ultraesb.version>2.3.0</ultraesb.version>
+        <junit.version>4.9</junit.version>
+        <logging.version>1.1.0</logging.version>
+    </properties>
+
+</project>

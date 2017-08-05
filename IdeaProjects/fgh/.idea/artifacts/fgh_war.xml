@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="fgh:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="fgh.war">
+      <element id="artifact" artifact-name="fgh:war exploded" />
+    </root>
+  </artifact>
+</component>

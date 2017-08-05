@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: ca.uhn.hapi:hapi-structures-v22:1.0-beta1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/hapi-structures-v22/1.0-beta1/hapi-structures-v22-1.0-beta1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/hapi-structures-v22/1.0-beta1/hapi-structures-v22-1.0-beta1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/ca/uhn/hapi/hapi-structures-v22/1.0-beta1/hapi-structures-v22-1.0-beta1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

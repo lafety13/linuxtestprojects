@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework:spring-webmvc:${springframework.vesion}">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/${springframework.vesion}/spring-webmvc-${springframework.vesion}.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/${springframework.vesion}/spring-webmvc-${springframework.vesion}-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/${springframework.vesion}/spring-webmvc-${springframework.vesion}-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
